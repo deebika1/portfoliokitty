@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root">DPKA EDUCATION DETAILS</div>
+    <script type="text/babel">
+        const Education=()=> <div className="mine1" style={{color:"black",width:"600px",height:"572px",backgroundColor:"lightGreen",marginLeft:"113px",marginTop:"36px",marginRight:"0px"}}>
+            <img src="edu.png"  style={{width:"30px",marginLeft:"20px"}}></img>
+            <h3 style={{color:"blue",marginLeft:"63px",marginTop:"-46px",fontSize:"40px"}}>EDUCATION</h3>
+            <h4 style={{marginLeft:"41px",color:"blue"}}>DEGREE</h4>
+        <ul style={{marginLeft:"1px"}}>
+            <li>Sri Manakula Vinayagar Engineering College Puducherry.</li>
+        <li>Electronics and Communication Enginerring. (Pursuing)</li>
+            <li>9.07 CGPA</li>
+            <h4 style={{marginLeft:"1px",color:"blue"}}>HSC</h4>
+            
+                <li>Amalorpavam higher secondary school, Puducherry.</li>
+                <li>87.5%</li>
+                <li>2016</li>
+         <h4 style={{marginLeft:"1px",color:"blue"}}>SLC:</h4>
+         <li>Sri Sankara Vidhayalaya Marticulation Higher Secondary School, Puducherry.</li>
+            <li>86.6%</li>
+            <li>2014</li>
+            </ul>
+               
+            </div>
+            const App= () =>{
+        return (
+            <div>
+            <Education />
+            </div>
+        );
+    };
+    ReactDOM.render(<App/>,document.getElementById("root"));
+</script>
+</body>
+</html>

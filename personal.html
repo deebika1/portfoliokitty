@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+
+  <body>
+    <div id="root">DPKA EDUCATION DETAILS</div>
+    <script type="text/babel">
+        const Personal=()=> <div className="mine1" style={{color:"black",width:"600px",height:"572px",backgroundColor:"lightGreen",marginLeft:"113px",marginTop:"36px",marginRight:"0px"}}>
+            <img src="per.png"  style={{width:"47px",marginLeft:"20px",marginTop:"0px"}}></img>
+            <h3 style={{color:"blue",marginLeft:"92px",marginTop:"-54px",fontSize:"40px"}}>PERSONAL TRAITS</h3>
+            <ul style={{marginLeft:"1px",fontSize:"20px"}}>
+                <li> Self disciplined</li>
+                <li> Positive emotionality</li>
+                <li> Open with new and different ideas </li>
+                <li> Self confidence </li>
+            </ul>
+        </div>
+            const App= () =>{
+        return (
+            <div>
+            <Personal />
+            </div>
+        );
+    };
+    ReactDOM.render(<App/>,document.getElementById("root"));
+</script>
+</body>
+</html>
